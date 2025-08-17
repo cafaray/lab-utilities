@@ -40,10 +40,13 @@
 
 
     // Your web app's Firebase configuration
-    const firebaseConfig = "";
-
+    // const firebaseConfig = "";
+    
+    fetch('/firebase-config.json')
+      .then(res => res.json())
+      .then(app => firebase.initializeApp(config));
     // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
+    // const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
 
     const statusEl = document.getElementById("status");

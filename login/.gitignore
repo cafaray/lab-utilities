@@ -67,3 +67,7 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+# This file is used to store Firebase configuration details.
+# It should not be committed to version control as it contains sensitive information.
+firebase-config.json
