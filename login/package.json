@@ -1,0 +1,24 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "A Login utility",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cafaray/lab-utilities/login"
+  },
+  "license": "ISC",
+  "author": "cafaray@gmail.com",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "@google-cloud/language": "^7.2.0",
+    "dotenv": "^17.2.1",
+    "fastify": "^5.5.0",
+    "firebase-admin": "^13.4.0"
+  }
+}
